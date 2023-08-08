@@ -5,6 +5,8 @@ from langchain.vectorstores import Chroma
 import os 
 from constants import CHROMA_SETTINGS
 
+file=
+
 persist_directory = "db"
 
 def main():
