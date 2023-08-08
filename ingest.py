@@ -5,7 +5,7 @@ from langchain.vectorstores import Chroma
 import os 
 from constants import CHROMA_SETTINGS
 
-file=
+
 
 persist_directory = "db"
 
@@ -24,6 +24,7 @@ def main():
     db = Chroma.from_documents(texts, embeddings, persist_directory=persist_directory, client_settings=CHROMA_SETTINGS)
     db.persist()
     db=None 
+    file ==
 
 if __name__ == "__main__":
     main()
